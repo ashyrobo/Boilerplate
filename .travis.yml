@@ -1,0 +1,35 @@
+language: cpp
+
+# commands or scripts to be executed before each build 
+# (for example, to install or clone project’s dependencies)
+
+
+# command used to run test suite
+# Emails, Campfire and IRC rooms to notify about build failures
+
+
+# A build on Travis CI is made up of two steps:
+
+ #   install: install any dependencies required
+ #   script: run the build script
+
+
+# The complete build lifecycle, including three optional deployment steps and after checking out the git repository and changing to the repository directory, is:
+
+#     OPTIONAL Install apt addons
+#     OPTIONAL Install cache components
+#     before_install
+#     install
+#     before_script
+#     script
+#     OPTIONAL before_cache (for cleaning up cache)
+#     after_success or after_failure
+#     OPTIONAL before_deploy
+#     OPTIONAL deploy
+#     OPTIONAL after_deploy
+#     after_script
+
+
+
+# skipi installation
+install: true
